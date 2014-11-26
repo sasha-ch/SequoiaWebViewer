@@ -1,0 +1,51 @@
+body { 
+	font: 0.75em Verdana, Geneva, sans-serif;
+}
+
+#treemap { 
+	display: inline-block; 
+	position: relative;
+	left: 0px;
+	top: 0px;
+}
+
+#debug{
+	border: 1px solid #aaa; 
+}
+
+.w100blc { 
+	border: 1px solid #aaa; 
+	width: 100%;
+	min-width: 100%;
+}
+
+#mouseoverbox { 
+	z-index:1000;
+}
+
+.layer2{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	z-index: 100;
+}
+
+#rightinfo{
+	float:right;
+	margin: 0px 10px;
+}
+
+#rightinfo span{
+	margin: 0px 10px;
+}
+
+#waitload{
+	display:none;
+	border: 1px solid #999; 
+	background-color: #fff;
+	padding: 10px;
+	position: fixed;
+	left: 500px;
+	top: 300px;
+	z-index: 150;
+}

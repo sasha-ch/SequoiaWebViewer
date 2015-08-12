@@ -1,4 +1,5 @@
-SQViewNix
+SequoiaWebViewer
+
 =========
 
 SequoiaView-like web script for Linux
